@@ -1,0 +1,112 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0 auto;
+    padding: 20px;
+}
+.main{
+    margin: 0 auto;
+    padding: 20px;
+    max-width: 550px;
+}
+.detail-main{
+    margin: 0 auto;
+    padding: 20px;
+    max-width: 68vw;
+}
+.country-info h3 {
+    margin-top: 0;
+    padding-top: 0;
+}
+
+.country-card {
+    border: 1px solid #ddd;
+    padding: 10px;
+    margin-top: 10px;
+    display: flex;
+
+}
+
+.country-info {
+    margin-left: 10px;
+    max-height: 150px;
+}
+.country-actions{
+    text-align: left;
+    display: flex;
+    width: 100%;
+    gap: 10px;
+
+}
+
+.country-actions button {
+    /* margin-right: 10px; */
+    padding: 5px 10px;
+    background-color: white;
+    color: blue;
+    border: 2px solid blue;
+    cursor: pointer;
+    width: 100%;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.country-detail {
+    display: flex;
+}
+
+.country-flag {
+    width: 200px;
+    height: 140px;
+    object-fit: fill;
+}
+
+.neighbours img {
+    width: 20rem;
+    height: 10rem;
+    margin-right: 1rem;
+    margin-bottom: 3rem;
+    border: 1px solid #ddd;
+}
+
+#searchInput {
+    width: 98%;
+    padding: 12px 5px;
+    margin-bottom: 20px;
+}
+.search-container {
+    position: relative;
+    display: flex;
+    align-items: center;
+}
+
+
+.search-icon {
+    position: absolute;
+    right: 5px;
+    font-size: 2rem;
+    color: #ccc;
+    cursor: pointer;
+    top: 5px;
+}
+
+.content{
+    display: flex;
+    flex-direction: column;
+    margin-left: 5rem;
+    max-height: 50vh;
+    justify-content: space-between;
+    align-items: start;   
+}
+.content p {
+    margin: 0;
+    padding: 0;
+}
+.detail-country-flag{
+    padding-bottom: 2rem;
+    width: 30rem;
+    height: 18rem;
+    object-fit: fill;
+}
+.neighbour-container{
+    margin-top: 2rem;
+}
